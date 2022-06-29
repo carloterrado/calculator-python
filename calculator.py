@@ -22,8 +22,7 @@ def checkNumberInput(answer):
       
   except:
     print("Invalid input")
-    answer = False
-    return answer
+    return False
 
 # VALIDATE OPERATOR INPUT
 def checkOperatorInput(operator):
@@ -32,8 +31,7 @@ def checkOperatorInput(operator):
     return operator
   
   print("Invalid operator")
-  operator = False
-  return operator
+  return False
 
 # CHECK AND PRINT THE FINAL OUTPUT
 def output(computedOutput):
